@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Animex</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,300&family=Montserrat+Alternates:ital,wght@1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Animex</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Popular</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">New</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Movies</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Genres
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Shonen</a></li>
+              <li><a class="dropdown-item" href="#">Slice of Life</a></li>
+              <li><a class="dropdown-item" href="#">Drama</a></li>
+              <li><a class="dropdown-item" href="#">Comedy</a></li>
+              <li><a class="dropdown-item" href="#">Romance</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+
+    </div>
+
+  </nav>
+
+  <!-- Carousel -->
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://static.crunchyroll.com/fms/landscape_poster/960x540/100/png/ad83d2e5-a722-461b-813a-9f7a7eda529b.webp" class="d-block w-100" alt="Jujutsu Kaisen s2">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/6b5f4fc8c0a7bb5012b9c0930a46570f.jpe" class="d-block w-100" alt="Demon slayer s3">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/b5de387d9b810e125fd674589819aa16.jpe" class="d-block w-100" alt="The girl I like forgot to wear her glasses">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/ffad1b93800580a55173288141b9a321.jpe" class="d-block w-100" alt="Loving Yamada at level 999">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/ea075b926e1073f4eb016bff8cdb434c.jpe" class="d-block w-100" alt="Chainsaw men">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/589632aedf2ed936e2c7ba95ed6ed5d4.jpe" class="d-block w-100" alt="Your lie in April">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- grid (New on Animex)-->
+  <div class="container text-center">
+    <div class="row1">
+
+      <div class="col-12">
+        <h4>NEW ON ANIMEX</h4>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-4 g-4">
+
+    <div class="col">
+      <div class="card">
+        <img src="https://static.crunchyroll.com/fms/landscape_poster/960x540/100/png/ad83d2e5-a722-461b-813a-9f7a7eda529b.webp" class="card-img-top" alt="Jujutsu Kaisen s2">
+        <div class="card-body">
+          <h6 class="card-title">JUJUTSU KAISEN SEASON 2</h6>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/6b5f4fc8c0a7bb5012b9c0930a46570f.jpe" class="card-img-top" alt="Demon slayer s3">
+        <div class="card-body">
+          <h6 class="card-title">DEMON SLAYER: SWORDSMITH VILLAGE ARC</h6>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/b5de387d9b810e125fd674589819aa16.jpe" class="card-img-top" alt="The girl I like forgot to wear her glasses">
+        <div class="card-body">
+          <h6 class="card-title">THE GIRL I LIKE FOROT HER GLASSES</h6>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/ffad1b93800580a55173288141b9a321.jpe" class="card-img-top" alt="Loving Yamada at level 999">
+        <div class="card-body">
+          <h6 class="card-title">LOVING YAMADA AT LEVEL 999</h6>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://sportshub.cbsistatic.com/i/2023/06/28/38f3bc0d-55b1-4e4c-9882-d7376608c839/bungo-stray-dogs-season-5-anime-poster.jpg" class="card-img-top" alt="Bungo Stray Dogs s5">
+        <div class="card-body">
+          <h6 class="card-title">BUNGO STRAY DOGS SEASON 5</h6>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://a.storyblok.com/f/178900/1920x1080/bbf60565bd/zom-100-bucket-list-of-the-dead-key-visual.jpg" class="card-img-top" alt="Zom 100 bucket list of the dead">
+        <div class="card-body">
+          <h6 class="card-title">ZOM 100: BUCKET LIST OF THE DEAD</h6>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://cdn.oneesports.gg/cdn-data/2023/03/Anime_OshinoKo.jpg" class="card-img-top" alt="Oshi no ko">
+        <div class="card-body">
+          <h6 class="card-title">OSHI NO KO</h6>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/d0bc7f70d8b643ef1ef59e3ed26797fc.jpe" class="card-img-top" alt="Hell's Paradise">
+        <div class="card-body">
+          <h6 class="card-title">HELL'S PARADISE</h6>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- big cards -->
+
+  <div class="container text-center">
+    <div class="row1">
+
+      <div class="col-12">
+        <h4>BIG THREE</h4>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="big-row row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+    <div class="col col-1">
+      <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+        style="background-image: url('https://assetsio.reedpopcdn.com/Dragon-Ball-Super-Goku.jpg?width=1200&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp');">
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+          <a href="#">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Dragon Ball</h3>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col col-1">
+      <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/1ecde018e863e2aaee31f00a23378c35.jpe');">
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+          <a href="#">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">One Piece</h3>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col col-1">
+      <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://i.ytimg.com/vi/_umZolStFJM/maxresdefault.jpg');">
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+          <a href="#">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Naruto</h3>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- grid (Most Popular)-->
+  <div class="container text-center">
+    <div class="row1">
+
+      <div class="col-12">
+        <h4>MOST POPULAR</h4>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-4 g-4">
+
+    <div class="col">
+      <div class="card">
+        <img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/589632aedf2ed936e2c7ba95ed6ed5d4.jpe" class="card-img-top" alt="Your Lie in April">
+        <div class="card-body">
+          <h6 class="card-title">YOUR LIE IN APRIL</h6>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://sportshub.cbsistatic.com/i/2021/03/15/0ae02345-fca0-427b-8d4c-01e0c0a8c5c8/attack-on-titan-opening-230355.jpg" class="card-img-top" alt="Attack on Titan">
+        <div class="card-body">
+          <h6 class="card-title">ATTACK ON TITAN</h6>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://nefariousreviews.files.wordpress.com/2016/01/clannad-after-story-featured.jpg" class="card-img-top" alt="Clannad-After Story">
+        <div class="card-body">
+          <h6 class="card-title">CLANNAD-AFTER STORY</h6>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://imageservice.disco.peacocktv.com/uuid/35a2730a-8fae-3174-add2-f95b8bddf8ad/TITLE_ART_16_9?language=eng&territory=US&proposition=NBCUOTT&version=dc42162c-0555-3007-961c-f487507cb2f0" class="card-img-top" alt="Death Note">
+        <div class="card-body">
+          <h6 class="card-title">DEATH NOTE</h6>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/640x360/catalog/crunchyroll/c7e809c93d6b963876472980c6d73d7f.jpe" class="card-img-top" alt="Anohana: the flower we saw that day">
+        <div class="card-body">
+          <h6 class="card-title">ANOHANA: THE FLOWER WE SAW THAT DAY</h6>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/ac6e22b27d285ed90e72744584d23434.jpe" class="card-img-top" alt="Steins Gate">
+        <div class="card-body">
+          <h6 class="card-title">STEINS;GATE</h6>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/298403eab66728ac995f64c7d92fd154.jpe" class="card-img-top" alt="Rascals does not dream of a Bunny Girl Senpai">
+        <div class="card-body">
+          <h6 class="card-title">RASCALS DOES NOT DREAM OF A BUNNY GIRL SENPAI</h6>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://www.cercatoridiatlantide.it/wp-content/uploads/2019/05/violet-evergarden-2.jpg" class="card-img-top" alt="Violet Evergarden">
+        <div class="card-body">
+          <h6 class="card-title">VIOLET EVERGARDEN</h6>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+
+  <div class="container container-1">
+    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+      <div class="col mb-3 foot-text">
+        <p class="text-body-secondary">Made with <span style="color: red;">❤</span> by Ritik Suryavanshi</p>
+      </div>
+
+      <div class="col mb-6">
+
+      </div>
+
+      <div class="col mb-3 foot-nav">
+        <h4 class="foot-head">Animex</h4>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2 nav-1"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2 nav-1"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+          <li class="nav-item mb-2 nav-1"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+          <li class="nav-item mb-2 nav-1"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+          <li class="nav-item mb-2 nav-1"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+
+  </script>
+
+</body>
+
+</html>
